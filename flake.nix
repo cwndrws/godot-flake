@@ -66,6 +66,7 @@
         runScript = "godot";
       };
     in {
+      godot = godot-bin;
       devShell = pkgs.mkShell {
         buildInputs = [godot-bin];
       };
